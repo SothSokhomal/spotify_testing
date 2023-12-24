@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    color: black;
+    font-style: normal;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.subtitle{
+    font-size: 40px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.descrip{
+    color: lightslategray;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    width: 64px;
+    height: 64px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.9rem;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.art_album,
+.artists{
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(103, 98, 98, 0.25);
+    font-size: 20px;
+    border-radius: 10px;
+    
+
+    transition: all 500ms;
+
+}
+
+.art_album:hover,
+.artists:hover{
+    background-color: rgba(151, 150, 150, 0.25)
+
+}
+.art_album a{
+    color: lightgray;
+    text-decoration: underline;
+  
+}
+
+
+.art_album img{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 250px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.artists img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.art_album_wrapper,
+.artists_wrapper{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+}
+.bounderyFrame{
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(103, 98, 98, 0.25);
+    border-radius: 10px;
+
+}
+.detail img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail h5,
+.duration h3{
+    color: rgb(144, 139, 139);
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+.track-wrapper{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+footer{
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
